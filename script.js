@@ -11,7 +11,7 @@ document.getElementById("connectBtn").addEventListener("click", function() {
 });
 
 document.getElementById("getcv").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent the default behavior (form submission or page redirect)
+    event.preventDefault();
 
     let fileId = "1nvvn0-hNgHuaOF21VkZmQIFw8-OuE9Og"; 
     let downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
