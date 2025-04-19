@@ -104,9 +104,18 @@ section {
 
 .home {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .home-content {
@@ -139,7 +148,8 @@ section {
 }
 
 .home-img img {
-    width: 32vw;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.04s ease-in-out;
@@ -467,6 +477,11 @@ section {
 }
 
 @media(max-width:1285px){
+
+    body{
+        flex-direction: column;
+        padding: 15px;
+    }
     #menu-icon{
         display: block;
     }
