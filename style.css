@@ -146,7 +146,8 @@ section {
 }
 
 .home-img img {
-    width: 32vw;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.04s ease-in-out;
