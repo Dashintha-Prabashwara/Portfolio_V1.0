@@ -29,7 +29,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 1.5rem 8%; /* Adjusted padding */
+    padding: 1.5rem 8%; 
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -64,7 +64,7 @@ span {
 
 .navbar {
     display: flex;
-    gap: 2rem; /* Added gap for spacing */
+    gap: 2rem; 
 }
 
 .navbar a {
@@ -136,7 +136,7 @@ section {
 }
 
 .devops-text {
-    white-space: nowrap; /* Prevents text from wrapping */
+    white-space: nowrap; 
 }
 
 .home-content p {
