@@ -13,7 +13,7 @@ document.getElementById("connectBtn").addEventListener("click", function() {
 document.getElementById("getcv").addEventListener("click", function(event) {
     event.preventDefault();
 
-    let fileId = "1nvvn0-hNgHuaOF21VkZmQIFw8-OuE9Og"; 
+    let fileId = "1G-2NKKZTQKw66fs4RhfJhGlD0xmyHI9x"; 
     let downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     let a = document.createElement("a");
