@@ -13,14 +13,15 @@ document.getElementById("connectBtn").addEventListener("click", function() {
 document.getElementById("getcv").addEventListener("click", function(event) {
     event.preventDefault();
 
-    let fileId = "1G-2NKKZTQKw66fs4RhfJhGlD0xmyHI9x"; 
+    let fileId = "1KhR0qwqEob_4n0aLgPe5jCsenptgrW33"; 
     let downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     let a = document.createElement("a");
     a.href = downloadLink;
-    a.download = "CV.pdf"; 
+    a.download = "Dashintha-Jayawardana.pdf"; 
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
 });
+
 
