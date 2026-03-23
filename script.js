@@ -1,3 +1,27 @@
+// Update Modal Logic
+const updateModal = document.getElementById('update-modal');
+const goToUpdatedBtn = document.getElementById('go-to-updated');
+const stayHereBtn = document.getElementById('stay-here');
+
+function showUpdateModal() {
+    updateModal.classList.add('show');
+}
+
+function hideUpdateModal() {
+    updateModal.classList.remove('show');
+}
+
+goToUpdatedBtn.addEventListener('click', function() {
+    window.location.href = 'https://dashijayawardana.vercel.app/';
+});
+
+stayHereBtn.addEventListener('click', hideUpdateModal);
+
+// Show modal on page load
+window.addEventListener('load', function() {
+    showUpdateModal();
+});
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
